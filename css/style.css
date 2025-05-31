@@ -124,7 +124,7 @@ a {
   background-color: #404bbf;
   position: absolute;
   left: 0;
-  bottom: -1;
+  bottom: -1px;
 }
 
 .contacts {
@@ -314,7 +314,7 @@ a {
 }
 
 .social-icons:hover,
-.social-icons:active {
+.social-icons:focus {
   background-color: #404bbf;
 }
 
@@ -447,6 +447,6 @@ a {
 }
 
 footer .social-icons:hover,
-footer .social-icons:active {
+footer .social-icons:focus {
   background-color: #31d0aa;
 }
